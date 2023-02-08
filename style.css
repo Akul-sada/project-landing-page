@@ -11,17 +11,21 @@ html{
     display: flex;
     flex-direction: column;
     height: 100vh;
+    background-color: #1F2937;
+    color: #fff;
 }
 .nav-bar{
     display: flex;
     justify-content: space-between;
     padding: 1.5rem 0;
+    height: 10rem;
 
 }
 .logo{
     text-align: center;
     flex-basis:50%;
     font-size: 2.8rem;
+    align-self: center;
 }
 ul.nav-lists{
     display: flex;
@@ -33,13 +37,54 @@ ul.nav-lists li{
     display: inline-block;
     font-size: 2rem;
 }
+ul.nav-lists li a{
+    text-decoration: none;
+    color: #8091a8;
+}
 
 /* section hero inside header */
 div.section-hero{
-    display: flex;
+    height: calc(100vh - 10rem);
+    
 }
+.hero-wrapper{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-hero .left{
+   display: flex; 
+   flex-direction: column;
+   gap: 2rem;
+   max-width: 40rem;
+}
+
+.section-hero .left p{
+    font-size: 2rem;
+}
+.section-hero .hero-image{
+    flex-basis: 50%;
+    max-width: 50rem;
+    padding-left: 3rem;
+}
+
 .section-hero div.left{
     display: flex;
     flex-direction: column;
+}
+.primary-heading{
+    font-size: 4rem;
+}
+a.hero-button{
+    text-decoration: none;
+    color: #fff;
+    background-color: #3882f6;
+    display: inline-block;
+    padding: 1rem;
+    width: 12rem;
+    text-align: center;
+    border-radius:5px;
+    font-size: 1.7rem;
 }
 
