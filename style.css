@@ -158,20 +158,42 @@ section.calltoaction{
 }
 .calltoaction-wrapper{
     padding: 3rem 2rem;
-
     display: flex;
     justify-content: space-around;
+    background-color: #3882f6;
+    border-radius: 6px;
+    
 }
 .call-text-white{
     font-size: 2.5rem;
+    color: #fff;
 }
 .call-text-dark{
     font-size: 2rem;
+    color: #bcd2f5;
 }
 .call-button{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.call-button a{
+    text-decoration: none;
+    color: #fff;
+    border: 1.5px solid #fff;
+    padding: 0.6rem 2.5rem;
+    font-size: 1.7rem;
+    border-radius: 6px;
+}
+footer{
+    background-color: #1f2937;
+    padding: 2.5rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 1.7rem;
+    letter-spacing: 1;
 }
 
 
