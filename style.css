@@ -128,6 +128,50 @@ section.information{
 .image-card{
     max-width: 20rem;
 }
+/* Quotes section */
+section.quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 8rem;
+    
+}
+blockquote{
+    font-size: 3.6rem;
+    text-align: justify;
+    color: #1f2937;
+}
+.quote-wrapper{
+    max-width: 80rem;
+    
+}
+.author{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 3rem;
+    font-weight:bolder; 
+}
+section.calltoaction{
+    padding: 6rem 2rem;
+}
+.calltoaction-wrapper{
+    padding: 3rem 2rem;
 
+    display: flex;
+    justify-content: space-around;
+}
+.call-text-white{
+    font-size: 2.5rem;
+}
+.call-text-dark{
+    font-size: 2rem;
+}
+.call-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
