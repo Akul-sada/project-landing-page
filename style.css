@@ -6,6 +6,9 @@
 html{
     font-size: 62.5%;
 }
+img{
+    width: 100%;
+}
 /*--------------------------------------Styling for header */
 .header{
     display: flex;
@@ -37,6 +40,10 @@ ul.nav-lists li{
     display: inline-block;
     font-size: 2rem;
 }
+ul.nav-lists li a:hover{
+    color: #fff;
+}
+
 ul.nav-lists li a{
     text-decoration: none;
     color: #8091a8;
@@ -87,4 +94,40 @@ a.hero-button{
     border-radius:5px;
     font-size: 1.7rem;
 }
+/* Information section */
+section.information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding: 5rem;
+}
+.heading-seconday{
+    font-size: 3.6rem;
+    font-weight: 900;
+    color:#1F2937;
+}
+.image-gallery{
+    display: flex;
+    gap: 2rem;
+}
+
+.infoimage-container{
+    max-width: 20rem;
+    max-height: 20rem;
+}
+.infoimage-container img{
+    border-radius: 10px;
+    border: 2px solid blue;
+}
+.image-info{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.image-card{
+    max-width: 20rem;
+}
+
+
 
